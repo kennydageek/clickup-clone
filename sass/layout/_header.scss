@@ -13,6 +13,34 @@
     width: 138.2rem;
     top: 50%;
     left: 50%;
-    transform: translate(-10%, -75%);
+    transform: translate(-10%, -70%);
     background-image: url('https://clickup.com/landing/images/main/bg_gradient__main-header.svg');
+}
+
+.wrapper {
+    position: relative;
+    top: 15%;
+    left: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    // background: blue;
+    width: 80vw;
+    min-height: 40rem;
+}
+
+.header-text {
+    // background: red;
+    // align-self: center;
+}
+
+.header-photo {
+    width: 80rem;
+    height: 60rem;
+    // background: pink;
+
+    &__photo {
+        width: 100%;
+        height: 100%;
+    }
 }
