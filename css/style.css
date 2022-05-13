@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  text-decoration: none; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif; }
+
+.btn__primary {
+  display: inline-block;
+  margin: 1rem;
+  background-color: #A45EE7;
+  box-shadow: 0.3rem 0.4rem 3rem rgba(41, 45, 52, 0.3);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  color: #fff;
+  transition: all .5s ease; }
+  .btn__primary:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 4px; }
+  .btn__primary--hover {
+    background-color: #fff;
+    color: #c0539e; }
+    .btn__primary--hover:hover {
+      background-color: #7b68ee;
+      color: #fff;
+      border-radius: 8px; }
+
+.nav {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 2rem 0rem; }
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%; }
+
+.nav-logo {
+  width: 20rem;
+  height: 10rem; }
+  .nav-logo__image {
+    width: 100%;
+    height: 100%; }
+
+.nav-middle {
+  margin-left: 15rem; }
+
+.nav-links {
+  display: flex;
+  justify-content: space-between; }
+  .nav-links li {
+    list-style: none;
+    font-weight: 600; }
+    .nav-links li:first-of-type {
+      padding-left: 5rem; }
+  .nav-links__item {
+    color: #fff;
+    padding: .8rem 1.5rem; }
+    .nav-links__item:hover {
+      background: white;
+      color: #292d34;
+      border-radius: 8px; }
+
+.header {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  overflow-x: hidden; }
+
+.header::before {
+  content: '';
+  position: absolute;
+  height: 100rem;
+  width: 138.2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-10%, -75%);
+  background-image: url("https://clickup.com/landing/images/main/bg_gradient__main-header.svg"); }

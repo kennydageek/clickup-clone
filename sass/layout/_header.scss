@@ -1,0 +1,18 @@
+.header {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    overflow-x: hidden;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    height: 100rem;
+    width: 138.2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -75%);
+    background-image: url('https://clickup.com/landing/images/main/bg_gradient__main-header.svg');
+}
