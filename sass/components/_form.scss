@@ -1,0 +1,23 @@
+.heading-form {
+
+    & #input-email {
+        width: 33rem;
+        padding: 2.1rem;
+        border-radius: 6px;
+        outline: 0px;
+        border: 1px solid $color-grey;
+        color: $color-black;
+        box-shadow: 0 1.9rem 2.5rem #0a0a330a;
+        transition: all .2s ease;
+
+        &:hover {
+            box-shadow: 0 1.9rem 2.5rem #0a0a331c;
+        }
+
+        &::placeholder {
+            color: rgba(185, 190, 199, .6);
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+    }
+}
