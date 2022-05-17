@@ -7,15 +7,22 @@
     border-radius: 8px;
     color: $color-white;
     transition: all .5s ease;
+    // cursor: pointer;
 
     &:hover {
         background-color: rgba($color-white, .6);
         border-radius: 4px;
     }
 
+    &--hover-purple {
+        background-color: $color-purple-light;
+    }
+
     &--hover {
         background-color: $color-white;
         color: $color-pink;
+        width: 7rem;
+        text-align: center;
 
         &:hover {
             background-color: $color-purple;
@@ -24,4 +31,25 @@
         }
     }
 
+}
+
+.btn__secondary {
+    display: inline-block;
+    background-color: $bg-color-purple;
+    box-shadow: .3rem .5rem 4rem rgba($color-black, .3);
+    padding: 1.5rem 2.5rem;
+    border-radius: 8px;
+    color: $color-white;
+    transition: all .3s ease;
+
+    &:hover {
+        background-color: $bg-color-purple-dark;
+        border: $bg-color-purple-dark;
+    }
+}
+
+.btn__text {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: capitalize;
 }

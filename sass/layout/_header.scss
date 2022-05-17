@@ -11,9 +11,9 @@
     position: absolute;
     height: 120rem;
     width: 140rem;
-    top: 50%;
+    top: 47%;
     left: 50%;
-    transform: translate(-10%, -73%);
+    transform: translate(-14%, -73%);
     background-image: url('https://clickup.com/landing/images/main/bg_gradient__main-header.svg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,10 +43,17 @@
     margin: 1.5rem 0 3rem;
 }
 
+.heading-button {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+}
+
 .header-photo {
     margin-top: -2rem;
-    width: 80rem;
-    height: 64rem;
+    margin-left: -10rem;
+    width: 85rem;
+    height: 60rem;
 
     // background: pink;
 
@@ -56,4 +63,39 @@
         display: block;
         margin-left: -4rem;
     }
+}
+
+.btn__caption {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    color: #46434399;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.ratings {
+    font-size: 1.2rem;
+    color: #46434399;
+    font-weight: 500;
+}
+
+.ratings span {
+    font-size: 1.4rem;
+    color: #F8BD36;
+}
+
+.ratings-wrapper {
+    margin-top: 4rem;
+}
+
+.ratings__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.ratings-brands {
+    display: flex;
+    justify-content: space-between;
+    width: 25rem;
+    margin-top: 2rem;
 }
