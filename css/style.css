@@ -121,7 +121,7 @@ body {
 .header {
   position: relative;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background: white;
   overflow-x: hidden; }
 
@@ -201,3 +201,22 @@ body {
   justify-content: space-between;
   width: 25rem;
   margin-top: 2rem; }
+
+.brand {
+  margin-bottom: 5rem; }
+
+.brand-wrapper__heading {
+  font-size: 1.4rem;
+  color: #7c828d;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 2rem 0 1.5rem; }
+
+.brand-photo {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  align-items: center; }
+  .brand-photo__image {
+    margin-right: 3rem; }
