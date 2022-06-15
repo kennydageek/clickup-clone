@@ -1,0 +1,22 @@
+.header {
+    min-height: 100vh;
+    overflow: hidden;
+    // background: r
+}
+
+.blob {
+    display: inline-block;
+    position: relative;
+    top: -55rem;
+    right: -10rem;
+    width: 100%;
+    height: 114rem;
+    background-image: url('https://clickup.com/landing/images/home-header-bg.jpg');
+    z-index: -1;
+}
+
+.header-container {
+    width: 100%;
+    min-height: 70rem;
+    background: red;
+}

@@ -18,3 +18,4 @@ const closeMenu = function () {
 
 menuBtn.addEventListener('click', showMenu);
 cancel.addEventListener('click', closeMenu);
+overlay.addEventListener('click', closeMenu);
