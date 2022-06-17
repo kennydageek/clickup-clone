@@ -15,16 +15,68 @@ body {
 
 .heading__primary {
   color: #292d34;
-  font-size: 5rem;
-  font-weight: 800;
+  font-size: 3.7rem;
+  font-weight: 600;
   line-height: 1.4; }
 
 .hidden {
   display: none !important;
   transform: translateX(0rem) !important; }
 
+.email-input {
+  margin-top: 2.5rem; }
+
+#email {
+  width: 100%;
+  padding: 1.8rem 0;
+  display: block;
+  border: 1px solid #b9bec799;
+  border-radius: 4px;
+  transition: box-shadow .1s ease; }
+  #email::placeholder {
+    color: #1a1919;
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    font-weight: 500; }
+  #email:hover {
+    box-shadow: 1px 1.5rem 2rem #b9bec799; }
+
+.form-cta {
+  margin-top: 1.5rem; }
+
+.submit {
+  display: flex;
+  margin-top: 3rem; }
+
+.submit__btn {
+  padding: 1.5rem 2.8rem;
+  border-radius: 1rem;
+  font-weight: 800;
+  border: 0;
+  color: #fff;
+  background-color: #7b68ee;
+  box-shadow: 1rem 1rem 5rem rgba(123, 104, 238, 0.5);
+  transition: all .2s ease;
+  font-size: 1.6rem;
+  cursor: pointer; }
+  .submit__btn:hover {
+    background-color: #5c4dbc; }
+  .submit__btn:hover {
+    background-color: #5c4dbc; }
+
+.cta__text {
+  flex-basis: 12rem;
+  font-weight: 800;
+  margin-left: 2rem;
+  color: #b9bec799;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  align-items: center;
+  margin-top: 1rem; }
+
 /*nav as it is*/
 .nav-bar {
+  position: fixed;
   width: 100%;
   height: 8rem;
   background-color: transparent;
@@ -63,7 +115,8 @@ body {
   height: 100vh;
   position: absolute;
   top: 0rem;
-  background-color: rgba(41, 45, 52, 0.1); }
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px) saturate(70%); }
 
 .nav-dropdown {
   width: 100%;
@@ -136,20 +189,43 @@ body {
     cursor: progress; }
 
 .header {
-  min-height: 100vh;
-  overflow: hidden; }
+  height: 100vh;
+  overflow-x: hidden; }
 
 .blob {
-  display: inline-block;
   position: relative;
-  top: -55rem;
+  bottom: 131rem;
   right: -10rem;
   width: 100%;
-  height: 114rem;
+  height: 100rem;
   background-image: url("https://clickup.com/landing/images/home-header-bg.jpg");
+  background-repeat: no-repeat;
   z-index: -1; }
 
-.header-container {
+.header-wrapper {
+  display: flex;
   width: 100%;
-  min-height: 70rem;
-  background: red; }
+  justify-content: center;
+  flex-direction: column; }
+
+.header-top,
+.header-bottom {
+  flex-basis: 100%;
+  min-height: 30rem; }
+
+.header-top {
+  margin-top: 9rem; }
+
+.header-image {
+  width: 100%;
+  height: 50%;
+  margin-left: 2.5rem; }
+  .header-image__image {
+    width: 100%;
+    height: 100%; }
+
+.header-bottom {
+  padding: 0 2rem; }
+  .header-bottom > p {
+    font-size: 14px;
+    margin-top: 1rem; }
