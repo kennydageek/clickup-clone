@@ -1,17 +1,18 @@
 *,
 *::after,
 *::before {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    box-sizing: border-box;
-    font-family: 'Poppins', Arial, sans-serif;
-    font-size: 1.6rem;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 1.6rem;
+  color: $color-black;
 }

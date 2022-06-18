@@ -11,7 +11,8 @@ html {
 body {
   box-sizing: border-box;
   font-family: 'Poppins', Arial, sans-serif;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  color: #292d34; }
 
 .heading__primary {
   color: #292d34;
@@ -229,3 +230,25 @@ body {
   .header-bottom > p {
     font-size: 14px;
     margin-top: 1rem; }
+
+.ratings {
+  margin-top: 3rem;
+  height: 4rem; }
+
+.ratings-star {
+  color: #828792;
+  font-size: 1.2rem;
+  font-weight: 600; }
+  .ratings-star__icon {
+    width: 1.6rem; }
+  .ratings-star__text {
+    display: inline-block;
+    margin-left: 1rem; }
+
+.ratings-logo {
+  display: flex;
+  margin-top: -0.5rem; }
+  .ratings-logo__logo {
+    display: block;
+    width: 7rem;
+    margin-right: 1rem; }

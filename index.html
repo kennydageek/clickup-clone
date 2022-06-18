@@ -1,99 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7ff047da6c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Clickup Clone</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="shortcut icon" href="img/ClickUp.svg" type="image/x-icon"> -->
+    <script defer src="script.js"></script>
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/7ff047da6c.js" crossorigin="anonymous"></script>
-        <title>Clickup Clone</title>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <!-- <link rel="shortcut icon" href="img/ClickUp.svg" type="image/x-icon"> -->
-        <script defer src="script.js"></script>
-    </head>
-
-    <body>
-        <!-- Navigation Starts -->
-        <nav class="nav-bar">
-            <div class="nav-logo">
-                <img src="img/ClickUp.svg" alt="logo" class="nav-logo__logo">
-            </div>
-            <div class="nav-icon">
-                <img src="/font-svg/bars-solid.svg" alt="menu" class="nav-icon__icon">
-
-            </div>
-        </nav>
-        <div class="nav-dropdown-overlay hidden">
-            <!-- ldlksklsdlk -->
+  <body>
+    <!-- Navigation Starts -->
+    <nav class="nav-bar">
+      <div class="nav-logo">
+        <img src="img/ClickUp.svg" alt="logo" class="nav-logo__logo" />
+      </div>
+      <div class="nav-icon">
+        <img src="/font-svg/bars-solid.svg" alt="menu" class="nav-icon__icon" />
+      </div>
+    </nav>
+    <div class="nav-dropdown-overlay hidden">
+      <!-- ldlksklsdlk -->
+    </div>
+    <div class="nav-dropdown hidden">
+      <div class="nav-dropdown-nav flex">
+        <div class="nav-dropdown-logo">
+          <img
+            src="img/ClickUp.svg"
+            alt="logo"
+            class="nav-dropdown-logo__logo"
+          />
         </div>
-        <div class="nav-dropdown hidden">
-            <div class="nav-dropdown-nav flex">
-                <div class="nav-dropdown-logo">
-                    <img src="img/ClickUp.svg" alt="logo" class="nav-dropdown-logo__logo">
-                </div>
 
-                <div class="nav-dropdown-cancel">
-                    <img src="font-svg/xmark-solid.svg" alt="close" class="nav-dropdown-cancel__icon">
-                </div>
-
-            </div>
-
-            <div class="nav-links">
-                <ul class="nav-links-list">
-                    <li class="list-items"><a href="#" class="list-items__links">Product</a></li>
-                    <li class="list-items"><a href="#" class="list-items__links">Solutions</a></li>
-                    <li class="list-items"><a href="#" class="list-items__links">Learn</a></li>
-                    <li class="list-items"><a href="#" class="list-items__links">Pricing</a></li>
-                    <li class="list-items"><a href="#" class="list-items__links">Enterprise</a></li>
-                    <li class="list-items"><a href="#" class="list-items__links">Contact Sales</a></li>
-                </ul>
-            </div>
-
-            <div class="cta">
-                <a href="#" class="cta__signup">Sign up</a>
-                <a href="#" class="cta__login">Login</a>
-            </div>
+        <div class="nav-dropdown-cancel">
+          <img
+            src="font-svg/xmark-solid.svg"
+            alt="close"
+            class="nav-dropdown-cancel__icon"
+          />
         </div>
-        <!-- Navigation ends here -->
+      </div>
 
-        <!-- Header starts -->
-        <header class="header">
-            <div class="header-wrapper flex">
-                <div class="header-top">
-                    <div class="header-image">
-                        <img src="/img/header image.png" alt="picture" class="header-image__image">
-                    </div>
-                </div>
-                <div class="header-bottom">
-                    <h2 class="heading__primary">One app to replace them all.
-                    </h2>
-                    <p>All of your work in one place: Tasks, Docs, Chat, Goals, & more.</p>
+      <div class="nav-links">
+        <ul class="nav-links-list">
+          <li class="list-items">
+            <a href="#" class="list-items__links">Product</a>
+          </li>
+          <li class="list-items">
+            <a href="#" class="list-items__links">Solutions</a>
+          </li>
+          <li class="list-items">
+            <a href="#" class="list-items__links">Learn</a>
+          </li>
+          <li class="list-items">
+            <a href="#" class="list-items__links">Pricing</a>
+          </li>
+          <li class="list-items">
+            <a href="#" class="list-items__links">Enterprise</a>
+          </li>
+          <li class="list-items">
+            <a href="#" class="list-items__links">Contact Sales</a>
+          </li>
+        </ul>
+      </div>
 
-                    <form action="" class="email-input">
-                        <input type="email" name="email" id="email" placeholder="Enter your email addresss " required>
+      <div class="cta">
+        <a href="#" class="cta__signup">Sign up</a>
+        <a href="#" class="cta__login">Login</a>
+      </div>
+    </div>
+    <!-- Navigation ends here -->
 
-                        <div class="submit">
-                            <a class="submit__btn">Get Started</a>
-                            <p class="cta__text">Free forever. No credit card</p>
-                        </div>
+    <!-- Header starts -->
+    <header class="header">
+      <div class="header-wrapper flex">
+        <div class="header-top">
+          <div class="header-image">
+            <img
+              src="/img/header image.png"
+              alt="picture"
+              class="header-image__image"
+            />
+          </div>
+        </div>
+        <div class="header-bottom">
+          <h2 class="heading__primary">One app to replace them all.</h2>
+          <p>
+            All of your work in one place: Tasks, Docs, Chat, Goals, & more.
+          </p>
 
-                    </form>
-                </div>
+          <form action="" class="email-input">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email addresss "
+              required
+            />
 
+            <div class="submit">
+              <a class="submit__btn">Get Started</a>
+              <p class="cta__text">Free forever. No credit card</p>
             </div>
+          </form>
 
+          <div class="ratings">
+            <div class="ratings-star">
+              <img
+                src="/img/icons/star-solid.svg"
+                alt=""
+                class="ratings-star__icon"
+              />
+              <img
+                src="/img/icons/star-solid.svg"
+                alt=""
+                class="ratings-star__icon"
+              />
+              <img
+                src="/img/icons/star-solid.svg"
+                alt=""
+                class="ratings-star__icon"
+              />
+              <img
+                src="/img/icons/star-solid.svg"
+                alt=""
+                class="ratings-star__icon"
+              />
+              <img
+                src="/img/icons/star-solid.svg"
+                alt=""
+                class="ratings-star__icon"
+              /><span class="ratings-star__text"
+                >Based on 10,000+ reviews on</span
+              >
 
-
-            <div class="blob">
-
+              <div class="ratings-logo">
+                <img
+                  src="/img/icons/g2-crowd-logo.svg"
+                  alt=""
+                  class="ratings-logo__logo"
+                />
+                <img
+                  src="/img/icons/capterra.svg"
+                  alt=""
+                  class="ratings-logo__logo"
+                />
+                <img
+                  src="/img/icons/getapp-seeklogo.com.svg"
+                  alt=""
+                  class="ratings-logo__logo ratings-logo__logo--getapp"
+                />
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
 
-
-        </header>
-
-
-    </body>
-
+      <div class="blob"></div>
+    </header>
+  </body>
 </html>
