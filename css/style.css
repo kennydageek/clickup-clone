@@ -51,9 +51,15 @@ body {
     width: 100%;
     height: 100%; }
 
+.btn__primary {
+  background-color: #fd71af;
+  border-radius: 1rem;
+  padding: 1.8rem 3.5rem; }
+
 .card-wrapper {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 5rem 3rem;
   margin-top: 2rem;
   padding-top: 2rem;
@@ -61,6 +67,32 @@ body {
   border-radius: 1rem;
   margin: 2rem auto;
   min-height: 30rem; }
+
+.card-top {
+  width: 100%; }
+  .card-top__img {
+    width: 100%;
+    height: 100%; }
+
+.card-bottom {
+  font-size: 1.4rem; }
+  .card-bottom__text {
+    margin: 2rem 0;
+    font-weight: 600; }
+  .card-bottom__subheading {
+    text-transform: uppercase;
+    margin-bottom: 2rem; }
+  .card-bottom__replace {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 2rem; }
+
+.card-bottom-content a {
+  color: white;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 1.5rem; }
 
 .email-input {
   margin-top: 2.5rem; }
