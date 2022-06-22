@@ -62,6 +62,8 @@ body {
   padding: 1.8rem 3.5rem; }
   .btn__primary--purple {
     background-color: rgba(194, 151, 244, 0.786); }
+  .btn__primary--green {
+    background-color: #00b884; }
 
 .card-wrapper {
   display: flex;
@@ -76,6 +78,8 @@ body {
   min-height: 30rem; }
   .card-wrapper--purple {
     background-color: rgba(194, 151, 244, 0.16); }
+  .card-wrapper--green {
+    background-color: rgba(230, 248, 243, 0.6); }
 
 .card-top {
   width: 100%; }
@@ -88,6 +92,8 @@ body {
   .card-bottom__text {
     margin: 2rem 0;
     font-weight: 600; }
+    .card-bottom__text--normal {
+      font-weight: 400; }
   .card-bottom__subheading {
     text-transform: uppercase;
     margin-bottom: 2rem; }
@@ -349,5 +355,7 @@ body {
   margin: 4rem 2rem 2rem; }
 
 .section-whiteboards {
-  min-height: 30rem;
+  margin: 4rem 2rem 2rem; }
+
+.section-customize {
   margin: 4rem 2rem 2rem; }

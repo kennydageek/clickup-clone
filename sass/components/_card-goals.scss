@@ -13,6 +13,10 @@
   &--purple {
     background-color: rgba(194, 151, 244, 0.16);
   }
+
+  &--green {
+    background-color: rgba(230, 248, 243, 0.6);
+  }
 }
 
 .card-top {
@@ -29,6 +33,10 @@
   &__text {
     margin: 2rem 0;
     font-weight: 600;
+
+    &--normal {
+      font-weight: 400;
+    }
   }
 
   &__subheading {
