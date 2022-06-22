@@ -45,7 +45,7 @@
 }
 
 .header-image {
-  width: 100%;
+  width: 90%;
   height: 50%;
   margin-left: 2.5rem;
 
@@ -88,6 +88,7 @@
 
 .ratings-logo {
   display: flex;
+  flex-wrap: wrap;
   margin-top: -0.5rem;
   &__logo {
     display: block;

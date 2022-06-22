@@ -117,6 +117,7 @@ body {
 
 .submit {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 3rem; }
 
 .submit__btn {
@@ -290,7 +291,7 @@ body {
   margin-top: 9rem; }
 
 .header-image {
-  width: 100%;
+  width: 90%;
   height: 50%;
   margin-left: 2.5rem; }
   .header-image__image {
@@ -319,6 +320,7 @@ body {
 
 .ratings-logo {
   display: flex;
+  flex-wrap: wrap;
   margin-top: -0.5rem; }
   .ratings-logo__logo {
     display: block;
