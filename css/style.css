@@ -20,6 +20,8 @@ body {
   font-size: 3.7rem;
   font-weight: 600;
   line-height: 1.4; }
+  .heading__primary--center {
+    text-align: center; }
 
 .heading__secondary {
   font-size: 1.4rem;
@@ -31,6 +33,9 @@ body {
 .hidden {
   display: none !important;
   transform: translateX(0rem) !important; }
+
+.margin-lg {
+  margin-bottom: 4rem !important; }
 
 .brand-wrapper {
   display: flex;
@@ -55,6 +60,8 @@ body {
   background-color: #fd71af;
   border-radius: 1rem;
   padding: 1.8rem 3.5rem; }
+  .btn__primary--purple {
+    background-color: rgba(194, 151, 244, 0.786); }
 
 .card-wrapper {
   display: flex;
@@ -67,6 +74,8 @@ body {
   border-radius: 1rem;
   margin: 2rem auto;
   min-height: 30rem; }
+  .card-wrapper--purple {
+    background-color: rgba(194, 151, 244, 0.16); }
 
 .card-top {
   width: 100%; }
@@ -86,6 +95,12 @@ body {
     font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 2rem; }
+  .card-bottom a {
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 1.5rem; }
 
 .card-bottom-content a {
   color: white;
@@ -331,5 +346,8 @@ body {
   margin: 4rem 2rem 2rem; }
 
 .section-goals {
+  margin: 4rem 2rem 2rem; }
+
+.section-whiteboards {
   min-height: 30rem;
   margin: 4rem 2rem 2rem; }
