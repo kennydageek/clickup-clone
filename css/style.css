@@ -59,11 +59,13 @@ body {
 .btn__primary {
   background-color: #fd71af;
   border-radius: 1rem;
-  padding: 1.8rem 3.5rem; }
+  padding: 1.8rem 3.8rem; }
   .btn__primary--purple {
     background-color: rgba(194, 151, 244, 0.786); }
   .btn__primary--green {
     background-color: #00b884; }
+  .btn__primary--blue {
+    background-color: #49ccf9; }
 
 .card-wrapper {
   display: flex;
@@ -80,6 +82,8 @@ body {
     background-color: rgba(194, 151, 244, 0.16); }
   .card-wrapper--green {
     background-color: rgba(230, 248, 243, 0.6); }
+  .card-wrapper--blue {
+    background-color: #edfafe; }
 
 .card-top {
   width: 100%; }
@@ -114,6 +118,30 @@ body {
   font-weight: 600;
   display: inline-block;
   font-size: 1.5rem; }
+
+.card-explain {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+  .card-explain__text {
+    font-size: 1.6rem; }
+
+.card-explain-icon {
+  width: 8rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  align-self: flex-start;
+  margin-right: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.145); }
+  .card-explain-icon--widtheye {
+    width: 6.6rem; }
+  .card-explain-icon--widthtrophy {
+    width: 9rem; }
+  .card-explain-icon__icon {
+    width: 100%;
+    height: 100%; }
 
 .email-input {
   margin-top: 2.5rem; }
@@ -358,4 +386,8 @@ body {
   margin: 4rem 2rem 2rem; }
 
 .section-customize {
+  margin: 4rem 2rem 2rem; }
+
+.section-built {
+  min-height: 30rem;
   margin: 4rem 2rem 2rem; }

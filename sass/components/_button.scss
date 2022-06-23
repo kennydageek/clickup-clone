@@ -2,12 +2,15 @@
   background-color: $color-pink;
   //   box-shadow: 0 1rem 2.5rem rgb(253 113 175 / 30%);
   border-radius: 1rem;
-  padding: 1.8rem 3.5rem;
+  padding: 1.8rem 3.8rem;
 
   &--purple {
     background-color: rgba(194, 151, 244, 0.786);
   }
   &--green {
     background-color: #00b884;
+  }
+  &--blue {
+    background-color: #49ccf9;
   }
 }
