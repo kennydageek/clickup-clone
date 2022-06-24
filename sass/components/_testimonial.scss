@@ -1,0 +1,24 @@
+.testimonial-image {
+  width: 30rem;
+  height: 30rem;
+  margin-top: -17rem;
+  margin-bottom: 5rem;
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 2;
+  font-weight: 500;
+  &__text {
+    margin-bottom: 2rem;
+  }
+  &__job {
+    font-weight: 600;
+  }
+}
