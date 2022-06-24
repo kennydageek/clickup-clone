@@ -20,15 +20,20 @@
 }
 
 .section-built {
-  min-height: 30rem;
+  // min-height: 30rem;
   margin: 4rem 2rem 2rem;
 }
 
 .section-testimonial {
-  min-height: 30rem;
+  // min-height: 30rem;
   margin: 4rem 2rem 2rem;
 
   &--spaced {
     margin: 20rem 2rem 2rem;
   }
+}
+
+.section-support {
+  margin: 4rem 2rem 2rem;
+  min-height: 30rem;
 }

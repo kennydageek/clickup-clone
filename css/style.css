@@ -197,7 +197,6 @@ body {
 
 /*nav as it is*/
 .nav-bar {
-  position: fixed;
   width: 100%;
   height: 8rem;
   background-color: transparent;
@@ -232,8 +231,8 @@ body {
     Nav functionality
 ************/
 .nav-dropdown-overlay {
+  position: absolute;
   width: 100%;
-  height: 100vh;
   position: absolute;
   top: 0rem;
   background-color: rgba(0, 0, 0, 0.4);
@@ -241,11 +240,13 @@ body {
 
 .nav-dropdown {
   width: 100%;
-  height: 75vh;
+  min-height: 75vh;
   background-color: white;
   position: absolute;
   top: 0;
-  right: 0; }
+  right: 0;
+  padding-bottom: 2rem;
+  box-shadow: 0rem 0rem 5rem 1rem rgba(0, 0, 0, 0.4); }
 
 .nav-dropdown-nav {
   display: flex;
@@ -308,6 +309,59 @@ body {
     margin-top: 1.5rem;
     background-color: #b9bec799;
     cursor: progress; }
+
+.support-wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.support-icon {
+  padding: 1.5rem;
+  background-color: #9b51e0;
+  border-radius: 1rem;
+  box-shadow: -0.5rem 1rem 7rem 0.5rem #341550;
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 2rem; }
+  .support-icon__icon {
+    width: 100%;
+    height: 100%; }
+
+.support__title {
+  margin-top: 4rem;
+  color: #9b51e0;
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1rem; }
+
+.support__heading {
+  font-size: 3.5rem;
+  margin-bottom: 4rem; }
+
+.support__paragraph {
+  font-size: 1.4rem;
+  color: #292d34;
+  padding-right: 7rem; }
+
+.support-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem; }
+  .support-list__item {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-top: 1rem; }
+  .support-list__img {
+    width: 1.6rem;
+    display: inline-block;
+    margin-right: 1rem; }
+
+.support-image {
+  margin-top: 5rem;
+  width: 100%; }
+  .support-image__img {
+    width: 100%; }
 
 .testimonial-image {
   width: 30rem;
@@ -408,11 +462,13 @@ body {
   margin: 4rem 2rem 2rem; }
 
 .section-built {
-  min-height: 30rem;
   margin: 4rem 2rem 2rem; }
 
 .section-testimonial {
-  min-height: 30rem;
   margin: 4rem 2rem 2rem; }
   .section-testimonial--spaced {
     margin: 20rem 2rem 2rem; }
+
+.section-support {
+  margin: 4rem 2rem 2rem;
+  min-height: 30rem; }
